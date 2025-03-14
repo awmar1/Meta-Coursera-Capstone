@@ -12,8 +12,8 @@ ALLOWED_HOSTS = []
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'my_database',
-        'USER': 'root',
+        'NAME': 'restaurant',
+        'USER': 'djangoadmin',
         'PASSWORD': 'testpassword',
         'HOST': '127.0.0.1',
         'PORT': '3306',
