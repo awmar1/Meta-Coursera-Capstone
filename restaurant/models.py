@@ -19,4 +19,4 @@ class Menu(models.Model):
     inventory = models.PositiveIntegerField(validators=[MaxValueValidator(99999)])
 
     def __str__(self):
-        return f"Menu {self.id} - {self.title}"
+        return f'{self.title} : {str(self.price)}'
